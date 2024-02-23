@@ -7,7 +7,7 @@ body {
 .chess-box {
   width: 76%;
   background: #fff;
-  height: 100vh;
+  height: fit-content;
   border: 24px solid black;
   margin: 0 auto;
   border-radius: 20px; border-image-slice:
@@ -175,4 +175,9 @@ body {
 .chess-line8 div:nth-of-type(2n) {
   background: #b7cbd1f5;
 }
-
+.icons{
+    font-size: 60px
+}
+.flex{
+    display: flex;justify-content: center;align-items: center
+}
