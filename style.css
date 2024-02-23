@@ -1,0 +1,178 @@
+body {
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.chess-box {
+  width: 76%;
+  background: #fff;
+  height: 100vh;
+  border: 24px solid black;
+  margin: 0 auto;
+  border-radius: 20px; border-image-slice:
+  5%
+  ;
+  border-image-width:
+  20px 20px 20px 20px; 
+  border-image-source:
+  url("./bo.png");
+  border-style:
+  solid;}
+.chess-content{
+    border: 2px solid #fff;
+}
+.chess-line1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+ 
+}
+.chess-line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.chess-line1 div {
+  width: 100px;
+  height: 80px;
+  background:  #b7cbd1f5;
+  border: 2px solid #fff;
+  border-radius: 4px;
+ 
+}
+.chess-line2 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: gray;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+ 
+}
+
+.chess-line3 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: #b7cbd1f5;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+ background-size: cover
+}
+.chess-line4 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: gray;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+}
+.chess-line5 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: #b7cbd1f5;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+.chess-line6 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: gray;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+}
+.chess-line7 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: #b7cbd1f5;
+  border: 2px solid #fff;
+  border-radius: 4px;
+
+}
+.chess-line8 div {
+  width: 100px;
+  height: 80px;
+  flex-grow: inherit;
+  background: gray;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+}
+
+.chess-line1 div:nth-of-type(2n) {
+  background:gray;
+}
+.chess-line2 div:nth-of-type(2n) {
+  background: #b7cbd1f5;
+}
+.chess-line3 div:nth-of-type(2n) {
+  background: gray;
+}
+.chess-line4 div:nth-of-type(2n) {
+  background: #b7cbd1f5;
+}
+.chess-line5 div:nth-of-type(2n) {
+  background: gray;
+}
+.chess-line6 div:nth-of-type(2n) {
+  background: #b7cbd1f5;
+}
+.chess-line7 div:nth-of-type(2n) {
+  background: gray;
+}
+.chess-line8 div:nth-of-type(2n) {
+  background: #b7cbd1f5;
+}
+
