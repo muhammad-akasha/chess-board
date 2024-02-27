@@ -80,19 +80,23 @@ body {
 .chess-line1 div {
   width: 100px;
   height: 80px;
-  background:  #b7cbd1f5;
+  background:  #fff;
   border: 2px solid #fff;
-  border-radius: 4px;
+  border-radius: 4px;color: #000;
+  text-shadow: 1px 1px 10px #fff
  
 }
 .chess-line2 div {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: gray;
+  background: #000;
   border: 2px solid #fff;
   border-radius: 4px;
   flex-direction: row-reverse;
+  text-shadow: 1px 1px 10px #fff;
+  color: #000;
+
  
 }
 
@@ -100,7 +104,7 @@ body {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: #b7cbd1f5;
+  background: #fff;
   border: 2px solid #fff;
   border-radius: 4px;
   flex-direction: row-reverse;
@@ -110,7 +114,7 @@ body {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: gray;
+  background: #000;
   border: 2px solid #fff;
   border-radius: 4px;
   flex-direction: row-reverse;
@@ -119,7 +123,7 @@ body {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: #b7cbd1f5;
+  background: #fff;
   border: 2px solid #fff;
   border-radius: 4px;
 }
@@ -127,7 +131,7 @@ body {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: gray;
+  background: #000;
   border: 2px solid #fff;
   border-radius: 4px;
   flex-direction: row-reverse;
@@ -136,44 +140,45 @@ body {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: #b7cbd1f5;
+  background: #fff;
   border: 2px solid #fff;
   border-radius: 4px;
+  text-shadow: 1px 1px 10px #000;color: #fff
 
 }
 .chess-line8 div {
   width: 100px;
   height: 80px;
   flex-grow: inherit;
-  background: gray;
-  border: 2px solid #fff;
+  background: #000;
+  border: 2px solid #ffffff;
   border-radius: 4px;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse;color: rgb(255, 255, 255);text-shadow: 1px 1px 10px #000
 }
 
 .chess-line1 div:nth-of-type(2n) {
-  background:gray;
+  background:#000;
 }
 .chess-line2 div:nth-of-type(2n) {
-  background: #b7cbd1f5;
+  background: #fff;
 }
 .chess-line3 div:nth-of-type(2n) {
-  background: gray;
+  background: #000;
 }
 .chess-line4 div:nth-of-type(2n) {
-  background: #b7cbd1f5;
+  background: #fff;
 }
 .chess-line5 div:nth-of-type(2n) {
-  background: gray;
+  background: #000;
 }
 .chess-line6 div:nth-of-type(2n) {
-  background: #b7cbd1f5;
+  background: #fff;
 }
 .chess-line7 div:nth-of-type(2n) {
-  background: gray;
+  background: #000;
 }
 .chess-line8 div:nth-of-type(2n) {
-  background: #b7cbd1f5;
+  background: #fff;
 }
 .icons{
     font-size: 60px
